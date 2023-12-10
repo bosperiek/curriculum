@@ -131,7 +131,7 @@ footer li:nth-child(2) a img {
 
 
  /* Estilos para Móvil pequeño: 360 x 640 px */
-@media only screen and (min-width: 320px) and (max-width: 360px) {
+@media only screen and (min-width: 420px) and (max-width: 920px) {
   body {
     font-family: "Didact Gothic", sans-serif;
     font-size: 14px;
