@@ -127,388 +127,135 @@ footer li:nth-child(2) a img {
   filter: brightness(0) invert(1);
 }
 
-/* Estilos para Móvil medio: 375 x 667 px */
-
-
- /* Estilos para Móvil pequeño: 360 x 640 px */
-@media only screen and (min-width: 420px) and (max-width: 920px) {
-  body {
-    font-family: "Didact Gothic", sans-serif;
-    font-size: 14px;
-    margin: 0;
-  }
-
-  header{
-    display: grid;
-    grid-template-columns: auto;
-    text-align: center;
-  }
-
-  h1{
-    width: auto; 
-    text-align: center; 
-    margin-top: 20px; 
-    display: block;
-  }
-
-  h3 {
-    margin-bottom: 2px;
-    margin-top: 10px;
-  }
-  
-  p {
-    display: inline-block;
-    width: 400px;
-    padding: 5px;
-  }
-  
-  .mi-profesion {
-    background-color: #56b847;
-    color: black;
-    font-family: "Didact Gothic", sans-serif;
-    text-align: center;
-    padding: 12px;
-  }
-  
-  .perfil {
-    flex-direction: column; 
-    align-items: center; 
-    text-align: justify; 
-    margin: 5px;
-  }
-
-  .imagen-perfil {
-    width: 100%; 
-    max-width: 200px; 
-    margin-top: 10px;
-  }
-  
-  .experiencia {
-    flex-direction: column; 
-    align-items: center; 
-    text-align: center; 
-  }
-  
-  .experiencia-profesional {
-    flex-direction: column; 
-    align-items:center;
-    text-align:justify;
-  }
-  
-  dt {
-    font-size: 20px;
-    text-transform: uppercase;
-    margin-top: 12px;
-  }
-  
-  dd {
-    margin: 0;
-    margin-bottom: 8px;
-    margin-top:6px;
-  }
-  
-  .formacion {
-    text-align: center;
-    margin-top: 20px;
-  }
-  
-  .mi-formacion {
-    flex-direction: column; 
-    align-items:center;
-    text-align:justify;
-  }
-  
-  /* styles.css */
-  
-  footer {
-    width: 100%;
-    height: 100px;
-    background-color: black;
-  }
-  
-  footer h3 {
-    display: flex;
-    justify-content: center;
-    color: white;
-  }
-  
-  footer ul {
-    list-style-type: none;
-    display: flex;
-    gap: 30px;
-    margin: 15px;
-    justify-content: center;
-  }
-  
-  footer li a {
-    color: white;
-    text-decoration: none;
-  }
-  
-  footer li a img {
-    width: 25px;
-    height: 25px;
-    margin-right: 5px;
-    border-radius: 20%;
-  }
-  
-  footer li:nth-child(2) a img {
-    filter: brightness(0) invert(1);
-  }
-}
-
-/* Estilos para Móvil medio: 375 x 667 px */
-@media only screen and (min-width: 361px) and (max-width: 375px) {
-  body {
-    font-family: "Didact Gothic", sans-serif;
-    font-size: 14px;
-    margin: 0;
-  }
-
-  header{
-    display: grid;
-    grid-template-columns: auto;
-    text-align: center;
-  }
-
-  h1{
-    width: auto; 
-    text-align: center; 
-    margin-top: 20px; 
-    display: block;
-  }
-
-  h3 {
-    margin-bottom: 2px;
-    margin-top: 10px;
-  }
-  
-  p {
-    display: inline-block;
-    width: 400px;
-    padding: 5px;
-  }
-  
-  .mi-profesion {
-    background-color: #56b847;
-    color: black;
-    font-family: "Didact Gothic", sans-serif;
-    text-align: center;
-    padding: 12px;
-  }
-  
-  .perfil {
-    flex-direction: column; 
-    align-items: center; 
-    text-align: justify; 
-    margin: 5px;
-  }
-
-  .imagen-perfil {
-    width: 100%; 
-    max-width: 200px; 
-    margin-top: 10px;
-  }
-  
-  .experiencia {
-    flex-direction: column; 
-    align-items: center; 
-    text-align: center; 
-  }
-  
-  .experiencia-profesional {
-    flex-direction: column; 
-    align-items:center;
-    text-align:justify;
-  }
-  
-  dt {
-    font-size: 20px;
-    text-transform: uppercase;
-    margin-top: 12px;
-  }
-  
-  dd {
-    margin: 0;
-    margin-bottom: 8px;
-    margin-top:6px;
-  }
-  
-  .formacion {
-    text-align: center;
-    margin-top: 20px;
-  }
-  
-  .mi-formacion {
-    flex-direction: column; 
-    align-items:center;
-    text-align:justify;
-  }
-  
-  /* styles.css */
-  
-  footer {
-    width: 100%;
-    height: 100px;
-    background-color: black;
-  }
-  
-  footer h3 {
-    display: flex;
-    justify-content: center;
-    color: white;
-  }
-  
-  footer ul {
-    list-style-type: none;
-    display: flex;
-    gap: 30px;
-    margin: 15px;
-    justify-content: center;
-  }
-  
-  footer li a {
-    color: white;
-    text-decoration: none;
-  }
-  
-  footer li a img {
-    width: 25px;
-    height: 25px;
-    margin-right: 5px;
-    border-radius: 20%;
-  }
-  
-  footer li:nth-child(2) a img {
-    filter: brightness(0) invert(1);
-  }
-}
-
-/* Estilos para Smartphone grande: 720 x 1280 px */
-@media only screen and (min-width: 376px) and (max-width: 720px) {
-  body {
-    font-family: "Didact Gothic", sans-serif;
-    font-size: 14px;
-    margin: 0;
-  }
-
-  header{
-    display: grid;
-    grid-template-columns: auto;
-    text-align: center;
-  }
-
-  h1{
-    width: auto; 
-    text-align: center; 
-    margin-top: 20px; 
-    display: block;
-  }
-
-  h3 {
-    margin-bottom: 2px;
-    margin-top: 10px;
-  }
-  
-  p {
-    display: inline-block;
-    width: 400px;
-    padding: 5px;
-  }
-  
-  .mi-profesion {
-    background-color: #56b847;
-    color: black;
-    font-family: "Didact Gothic", sans-serif;
-    text-align: center;
-    padding: 12px;
-  }
-  
-  .perfil {
-    flex-direction: column; 
-    align-items: center; 
-    text-align: justify; 
-    margin: 5px;
-  }
-
-  .imagen-perfil {
-    width: 100%; 
-    max-width: 200px; 
-    margin-top: 10px;
-  }
-  
-  .experiencia {
-    flex-direction: column; 
-    align-items: center; 
-    text-align: center; 
-  }
-  
-  .experiencia-profesional {
-    flex-direction: column; 
-    align-items:center;
-    text-align:justify;
-  }
-  
-  dt {
-    font-size: 20px;
-    text-transform: uppercase;
-    margin-top: 12px;
-  }
-  
-  dd {
-    margin: 0;
-    margin-bottom: 8px;
-    margin-top:6px;
-  }
-  
-  .formacion {
-    text-align: center;
-    margin-top: 20px;
-  }
-  
-  .mi-formacion {
-    flex-direction: column; 
-    align-items:center;
-    text-align:justify;
-  }
-  
-  /* styles.css */
-  
-  footer {
-    width: 100%;
-    height: 100px;
-    background-color: black;
-  }
-  
-  footer h3 {
-    display: flex;
-    justify-content: center;
-    color: white;
-  }
-  
-  footer ul {
-    list-style-type: none;
-    display: flex;
-    gap: 30px;
-    margin: 15px;
-    justify-content: center;
-  }
-  
-  footer li a {
-    color: white;
-    text-decoration: none;
-  }
-  
-  footer li a img {
-    width: 25px;
-    height: 25px;
-    margin-right: 5px;
-    border-radius: 20%;
-  }
-  
-  footer li:nth-child(2) a img {
-    filter: brightness(0) invert(1);
-  }
-}
 
     
+@media only screen and (max-width: 720px) {
+  body {
+    font-family: "Didact Gothic", sans-serif;
+    font-size: 14px;
+    margin: 0;
+  }
+
+  header{
+    display: grid;
+    grid-template-columns: auto;
+    text-align: center;
+  }
+
+  h1{
+    width: auto; 
+    text-align: center; 
+    margin-top: 20px; 
+    display: block;
+  }
+
+  h3 {
+    margin-bottom: 2px;
+    margin-top: 10px;
+  }
+  
+  p {
+    display: inline-block;
+    width: 400px;
+    padding: 5px;
+  }
+  
+  .mi-profesion {
+    background-color: #56b847;
+    color: black;
+    font-family: "Didact Gothic", sans-serif;
+    text-align: center;
+    padding: 12px;
+  }
+  
+  .perfil {
+    flex-direction: column; 
+    align-items: center; 
+    text-align: justify; 
+    margin: 5px;
+  }
+
+  .imagen-perfil {
+    width: 100%; 
+    max-width: 200px; 
+    margin-top: 10px;
+  }
+  
+  .experiencia {
+    flex-direction: column; 
+    align-items: center; 
+    text-align: center; 
+  }
+  
+  .experiencia-profesional {
+    flex-direction: column; 
+    align-items:center;
+    text-align:justify;
+  }
+  
+  dt {
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-top: 12px;
+  }
+  
+  dd {
+    margin: 0;
+    margin-bottom: 8px;
+    margin-top:6px;
+  }
+  
+  .formacion {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .mi-formacion {
+    flex-direction: column; 
+    align-items:center;
+    text-align:justify;
+  }
+  
+  /* styles.css */
+  
+  footer {
+    width: 100%;
+    height: 100px;
+    background-color: black;
+  }
+  
+  footer h3 {
+    display: flex;
+    justify-content: center;
+    color: white;
+  }
+  
+  footer ul {
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+    margin: 15px;
+    justify-content: center;
+  }
+  
+  footer li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  footer li a img {
+    width: 25px;
+    height: 25px;
+    margin-right: 5px;
+    border-radius: 20%;
+  }
+  
+  footer li:nth-child(2) a img {
+    filter: brightness(0) invert(1);
+  }
+
+
+
+
+
+}
